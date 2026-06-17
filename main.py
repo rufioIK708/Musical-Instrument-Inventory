@@ -1,2 +1,5 @@
 class MusicalInstrument:
-    pass
+    def __init__(self, name, instrument_type):
+        # Initialize instrument with name and type
+        self.name = name
+        self.instrument_type = instrument_type
